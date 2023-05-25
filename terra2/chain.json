@@ -107,7 +107,8 @@
         "recommended_version": "v2.3.1",
         "compatible_versions": [
           "v2.3.0",
-          "v2.3.1"
+          "v2.3.1",
+          "v2.3.2"
         ],
         "cosmos_sdk_version": "v0.46.11",
         "cosmwasm_enabled": true,
@@ -123,15 +124,37 @@
         }
       },
       {
+        "name": "v2.3",
+        "tag": "v2.3.2",
+        "height": 4711800,
+        "recommended_version": "v2.3.2",
+        "compatible_versions": [
+          "v2.3.0",
+          "v2.3.1",
+          "v2.3.2"
+        ],
+        "cosmos_sdk_version": "v0.46.11",
+        "cosmwasm_enabled": true,
+        "cosmwasm_version": "v0.30.0",
+        "ibc_go_version": "v6.1.1",
+        "consensus": {
+          "type": "cometbft",
+          "version": "v0.34.27"
+        },
+        "binaries": {
+          "linux/amd64": "https://github.com/terra-money/core/releases/download/v2.3.2/terra_2.3.2_Linux_x86_64.tar.gz?checksum=sha256:a6e23b6bf9305eee3a416305afd3eb8af52da72410ee54b2d2aa6981a9251499"
+        }
+      },
+      {
         "name": "v2.4",
         "tag": "v2.4.0",
         "cosmos_sdk_version": "v0.46.11",
         "cosmwasm_enabled": true,
         "cosmwasm_version": "v0.30.0",
-        "ibc_go_version": "v6.1.0",
+        "ibc_go_version": "v6.1.1",
         "consensus": {
           "type": "cometbft",
-          "version": "0.34.27"
+          "version": "v0.34.27"
         }
       }
     ]
