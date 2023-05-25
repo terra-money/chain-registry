@@ -56,13 +56,13 @@
         "tag": "v2.1.0-beta.1",
         "height": 838500,
         "recommended_version": "v2.1.0-beta.1",
-        "cosmos_sdk_version": "v0.46.9",
+        "cosmos_sdk_version": "0.46.9",
         "cosmwasm_enabled": true,
-        "cosmwasm_version": "v0.27.0",
-        "ibc_go_version": "v3.0.0",
+        "cosmwasm_version": "0.27.0",
+        "ibc_go_version": "3.0.0",
         "consensus": {
           "type": "tendermint",
-          "version": "v0.34.21"
+          "version": "0.34.21"
         },
         "next_version_name": "v2.2",
         "binaries": {
@@ -78,13 +78,13 @@
           "v2.2.0",
           "v2.2.1"
         ],
-        "cosmos_sdk_version": "v0.46.11",
+        "cosmos_sdk_version": "0.46.11",
         "cosmwasm_enabled": true,
-        "cosmwasm_version": "v0.27.0",
-        "ibc_go_version": "v3.4.0",
+        "cosmwasm_version": "0.27.0",
+        "ibc_go_version": "3.4.0",
         "consensus": {
           "type": "tendermint",
-          "version": "v0.34.21"
+          "version": "0.34.21"
         },
         "next_version_name": "v2.3",
         "binaries": {
