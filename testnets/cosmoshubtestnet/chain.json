@@ -54,6 +54,7 @@
       },
       {
         "name": "v6.0.4",
+        "height": 0,
         "recommended_version": "v6.0.4",
         "compatible_versions": [
           "v6.0.4"
