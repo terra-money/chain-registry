@@ -39,7 +39,7 @@
     "git_repo": "https://github.com/osmosis-labs/osmosis",
     "recommended_version": "v16.1.0",
     "compatible_versions": [
-      "16.1.0"
+      "v16.1.0"
     ],
     "binaries": {
       "linux/amd64": "https://github.com/osmosis-labs/osmosis/releases/download/v16.1.0/osmosisd-16.1.0-linux-amd64?checksum=sha256:2c21a7478d9ed13a428d487861685b1ce43e10e034b46b11500b25756f3b6a6d",
