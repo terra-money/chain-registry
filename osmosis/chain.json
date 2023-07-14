@@ -37,14 +37,13 @@
   },
   "codebase": {
     "git_repo": "https://github.com/osmosis-labs/osmosis",
-    "recommended_version": "v15.1.0",
+    "recommended_version": "v16.1.0",
     "compatible_versions": [
-      "v15.1.0",
-      "v15.0.0"
+      "v16.1.0"
     ],
     "binaries": {
-      "linux/amd64": "https://github.com/osmosis-labs/osmosis/releases/download/v15.1.0/osmosisd-15.1.0-linux-amd64?checksum=sha256:f16f901dfd47426caced8436c507e2950a4e2452b6cc6efc7845ab3b43a5c5d5",
-      "linux/arm64": "https://github.com/osmosis-labs/osmosis/releases/download/v15.1.0/osmosisd-15.1.0-linux-arm64?checksum=sha256:08b20f0753b6b0bafa3a6ca7e4bb6807baf72754dfb69d6db7b1fb2b4b55ffc0"
+      "linux/amd64": "https://github.com/osmosis-labs/osmosis/releases/download/v16.1.0/osmosisd-16.1.0-linux-amd64?checksum=sha256:2c21a7478d9ed13a428d487861685b1ce43e10e034b46b11500b25756f3b6a6d",
+      "linux/arm64": "https://github.com/osmosis-labs/osmosis/releases/download/v16.1.0/osmosisd-16.1.0-linux-arm64?checksum=sha256:b89f9033fb0bd38ec27e6b6441c2db6d5b5b6c77cc7883128468a0c17e8f2a0a"
     },
     "cosmos_sdk_version": "0.45",
     "consensus": {
@@ -139,6 +138,30 @@
         "binaries": {
           "linux/amd64": "https://github.com/osmosis-labs/osmosis/releases/download/v15.1.0/osmosisd-15.1.0-linux-amd64?checksum=sha256:f16f901dfd47426caced8436c507e2950a4e2452b6cc6efc7845ab3b43a5c5d5",
           "linux/arm64": "https://github.com/osmosis-labs/osmosis/releases/download/v15.1.0/osmosisd-15.1.0-linux-arm64?checksum=sha256:08b20f0753b6b0bafa3a6ca7e4bb6807baf72754dfb69d6db7b1fb2b4b55ffc0"
+        }
+      },
+      {
+        "name": "v16",
+        "tag": "v16.1.0",
+        "height": 10517000,
+        "recommended_version": "v16.1.0",
+        "compatible_versions": [
+          "v16.1.0"
+        ],
+        "cosmos_sdk_version": "0.45",
+        "consensus": {
+          "type": "tendermint",
+          "version": "0.34"
+        },
+        "cosmwasm_version": "0.31",
+        "cosmwasm_enabled": true,
+        "ibc_go_version": "4.3.1",
+        "ics_enabled": [
+          "ics20-1"
+        ],
+        "binaries": {
+          "linux/amd64": "https://github.com/osmosis-labs/osmosis/releases/download/v16.1.0/osmosisd-16.1.0-linux-amd64?checksum=sha256:2c21a7478d9ed13a428d487861685b1ce43e10e034b46b11500b25756f3b6a6d",
+          "linux/arm64": "https://github.com/osmosis-labs/osmosis/releases/download/v16.1.0/osmosisd-16.1.0-linux-arm64?checksum=sha256:b89f9033fb0bd38ec27e6b6441c2db6d5b5b6c77cc7883128468a0c17e8f2a0a"
         }
       }
     ]
