@@ -30,9 +30,9 @@
   },
   "codebase": {
     "git_repo": "https://github.com/terra-money/core/",
-    "recommended_version": "v2.7.0",
+    "recommended_version": "v2.8.0",
     "compatible_versions": [
-      "v2.7.0"
+      "v2.8.0"
     ],
     "genesis": {
       "name": "v2.0",
@@ -260,6 +260,26 @@
         },
         "binaries": {
           "linux/amd64": "https://github.com/terra-money/core/releases/download/v2.7.0/terra_2.7.0_Linux_x86_64.tar.gz?checksum=sha256:9d6319fdc32707ce5b0f910f1f13a18caa42da85d894d23c8183d2e1ae78d802"
+        }
+      },
+      {
+        "name": "v2.8",
+        "tag": "v2.8.0",
+        "height": 8648000,
+        "recommended_version": "v2.8.0",
+        "compatible_versions": [
+          "v2.8.0"
+        ],
+        "cosmos_sdk_version": "v0.47.6-terra.0",
+        "cosmwasm_enabled": true,
+        "cosmwasm_version": "v0.45.0",
+        "ibc_go_version": "v7.0.0-20231025094952-d0d14bc2e7ae",
+        "consensus": {
+          "type": "cometbft",
+          "version": "v0.37.2"
+        },
+        "binaries": {
+          "linux/amd64": "https://github.com/terra-money/core/releases/download/v2.8.0/terra_2.8.0_Linux_x86_64.tar.gz?checksum=sha256:94b02651803fa4684cd1b445e1604dfbd278195e2379296f31c518a90829b22c"
         }
       }
     ]
