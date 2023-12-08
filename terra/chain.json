@@ -160,9 +160,9 @@
   },
   "codebase": {
     "git_repo": "https://github.com/classic-terra/core",
-    "recommended_version": "v2.3.0",
+    "recommended_version": "v2.3.2",
     "compatible_versions": [
-      "v2.3.0"
+      "v2.3.2"
     ],
     "genesis": {
       "name": "1.0.5",
@@ -260,7 +260,7 @@
       {
         "name": "2.3.2",
         "tag": "v2.3.2",
-        "height": 15493370,
+        "height": 15751600,
         "cosmos_sdk_version": "v0.46.14-terra.4",
         "cosmwasm_enabled": true,
         "cosmwasm_version": "v0.30.0-terra.3",
@@ -270,7 +270,7 @@
           "version": "v0.34.29-terra.0"
         },
         "binaries": {
-          "linux/amd64": "https://github.com/terra-money/classic-core/releases/download/v2.3.0/terra_2.3.0_Linux_x86_64.tar.gz?checksum=sha256:03a788fb401f86c663243346df19f95ceaf98881bb2d84ea385d293d91598aa7"
+          "linux/amd64": "https://github.com/classic-terra/core/releases/download/v2.3.2/terra_2.3.2_Linux_x86_64.tar.gz?checksum=sha256:1ed376574853da4758fa92649a4bc3a1d43a16b1ee06c21127ec165697d18387"
         }
       }
     ]
