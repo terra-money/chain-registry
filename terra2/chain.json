@@ -30,12 +30,13 @@
   },
   "codebase": {
     "git_repo": "https://github.com/terra-money/core/",
-    "recommended_version": "v2.9.3",
+    "recommended_version": "v2.10.2",
     "compatible_versions": [
-      "v2.9.3"
+      "v2.10.2"
     ],
     "binaries": {
-      "linux/amd64": "https://github.com/terra-money/core/releases/download/v2.9.3/terra_2.9.3_Linux_x86_64.tar.gz?checksum=sha256:bf67720c73e73f4e1b2b530de5f64958bec3ef4552c33a50ec10d767a721bcc3"
+      "linux/arm64": "https://github.com/terra-money/core/releases/download/v2.10.2/terra_2.10.2_Linux_arm64.tar.gz?checksum=sha256:08f2ae720ea476d3343df4e57ba5f6ce7421c88ac822577f14f8ac36b6aeecbe",
+      "linux/amd64": "https://github.com/terra-money/core/releases/download/v2.10.2/terra_2.10.2_Linux_x86_64.tar.gz?checksum=sha256:75113cc89a5c4b27fc60f6f0bc1c5af0962831514c832c4e4a6300e93ef9167b"
     },
     "genesis": {
       "name": "v2.0",
@@ -205,6 +206,27 @@
         },
         "binaries": {
           "linux/amd64": "https://github.com/terra-money/core/releases/download/v2.9.3/terra_2.9.3_Linux_x86_64.tar.gz?checksum=sha256:bf67720c73e73f4e1b2b530de5f64958bec3ef4552c33a50ec10d767a721bcc3"
+        }
+      },
+      {
+        "name": "v2.10",
+        "tag": "v2.10.2",
+        "height": 9444000,
+        "recommended_version": "v2.10.2",
+        "compatible_versions": [
+          "v2.10.2"
+        ],
+        "cosmos_sdk_version": "v0.47.6-terra.0",
+        "cosmwasm_enabled": true,
+        "cosmwasm_version": "v0.45.0",
+        "ibc_go_version": "v7.3.1-terra.0",
+        "consensus": {
+          "type": "cometbft",
+          "version": "v0.37.2"
+        },
+        "binaries": {
+          "linux/arm64": "https://github.com/terra-money/core/releases/download/v2.10.2/terra_2.10.2_Linux_arm64.tar.gz?checksum=sha256:08f2ae720ea476d3343df4e57ba5f6ce7421c88ac822577f14f8ac36b6aeecbe",
+          "linux/amd64": "https://github.com/terra-money/core/releases/download/v2.10.2/terra_2.10.2_Linux_x86_64.tar.gz?checksum=sha256:75113cc89a5c4b27fc60f6f0bc1c5af0962831514c832c4e4a6300e93ef9167b"
         }
       }
     ]
